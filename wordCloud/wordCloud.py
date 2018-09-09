@@ -73,7 +73,7 @@ bg = Image.open("bg2.jpg")
 #将词云图片粘贴在背景图上，(0,0,1376,843)为词云图片大小位置，mask为蒙板
 bg.paste(wc_img,(200,100,920,505),mask=wc_mask)
 bg.show()
-
+bg.save("bg_.png")
 #..........................
 plt.figure("abc")
 
